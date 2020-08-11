@@ -1,0 +1,141 @@
+.main {
+    font-family: 'Questrial', sans-serif;
+    width: 80%;
+    margin: 50px auto;
+}
+
+.main, .header, .options, .review, .title-section, .left, .right, .avg-rating, .search-sort, .title-section  {
+    display: flex;
+    align-items: center;
+}
+
+.main, .left, .right, .avg-rating, .search-sort {
+    flex-direction: column;
+}
+
+.header {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.avg-rating {
+    margin-right: 70px;
+}
+
+.text-rating {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.stars {
+    height: 30px;
+}
+
+.review-num, .button, .name {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.review-num {
+    margin-top: 5px;
+}
+
+.button {
+    padding: 15px;
+    border: none;
+    color: white;
+    background-color: black;
+}
+
+.options {
+    border-top: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+    width: 100%;
+    justify-content: space-between;
+    padding: 40px 0px;
+}
+
+.filters {
+    width: 320px;
+}
+
+.search, .sort {
+    padding: 15px;
+    background-color: #f2f2f2;
+    font-size: 13px;
+    border-color: transparent;
+    border-radius: 3px;
+    width: 250px;
+    font-family: inherit;
+    letter-spacing: 0.5px;
+    color: gray;
+}
+
+.search {
+    margin-bottom: 10px;
+}
+
+.review {
+    padding: 40px 50px 30px 50px;
+    border-bottom: 1px solid #f2f2f2;
+    width: 100%;
+    align-items: flex-start;
+}
+
+.left {
+    margin-right: 80px;
+}
+
+.prof {
+    height: 60px;
+}
+
+.name {
+    font-size: 14px;
+}
+
+.verified {
+    background-color: black;
+    padding: 7px;
+    color: white;
+    margin-top: 0;
+    font-size: 12px;
+}
+
+.right {
+    align-items: flex-start;
+}
+
+.right .stars {
+    margin-left: -5px;
+}
+
+.thumbs {
+    height: 40px;
+    align-self: flex-end;
+}
+
+.title-section {
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.title {
+    font-size: 19px;
+    margin: 12px 0px 10px 0px;
+}
+
+.description {
+    font-size: 15px;
+    line-height: 1.7em;
+    margin-top: 10px;
+}
+
+.date {
+    color: gray;
+    font-size: 14px;
+}
+
