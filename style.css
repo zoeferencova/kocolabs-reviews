@@ -139,3 +139,21 @@
     font-size: 14px;
 }
 
+@media only screen and (max-width: 600px) {
+    .main {
+        width: 95%;
+    }
+
+    .options {
+        flex-direction: column;
+    }
+
+    .search-sort {
+        margin-top: 20px;
+    }
+
+    .left {
+        margin-right: 35px;
+    }
+}
+
