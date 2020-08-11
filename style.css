@@ -152,6 +152,10 @@
         margin-top: 20px;
     }
 
+    .search, .sort {
+        width: 320px;
+    }
+
     .left {
         margin-right: 35px;
     }
