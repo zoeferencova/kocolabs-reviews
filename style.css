@@ -143,6 +143,10 @@
     .main {
         width: 95%;
     }
+
+    .left {
+        margin-right: 55px;
+    }
 }
 
 @media only screen and (max-width: 650px) {
